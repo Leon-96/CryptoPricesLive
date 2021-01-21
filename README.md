@@ -1,5 +1,5 @@
 # CryptoPricesLive
-A GUI software which tells you the prices of any cryptocurrency you choose in various national currencies
+A GUI software which tells you the prices of any cryptocurrency you choose in various national currencies.
 
 
 I have also added a version for windows which can be opened without having to install python or anything else.
