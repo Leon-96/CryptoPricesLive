@@ -34,7 +34,8 @@ combostyle.theme_create('combostyle', parent='alt',
                          settings = {'TCombobox':
                                      {'configure':
                                       {'selectbackground': 'purple',
-                                       'fieldbackground': 'white',
+                                       'foreground':"white",
+                                       'fieldbackground': 'black',
                                        'background': 'white'}}} )
 
 combostyle.theme_use('combostyle')
