@@ -10,6 +10,13 @@ root['bg']='wheat'
 root.minsize(800,800)
 root.resizable(width=False,height=False)
 
+<<<<<<< HEAD
+=======
+windowicon = PhotoImage(file="C:\\Users\\GoodBoy69\\Downloads\\icon.png")
+root.iconphoto(False, windowicon)
+
+
+>>>>>>> 505afae (Initial commit)
 filename1 = PhotoImage(file="C:\\Users\\GoodBoy69\\Pictures\\pattern.gif")
 background_label = Label(root, image=filename1)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -56,6 +63,10 @@ def get_price(event):
     x=(str(cg.get_price(ids=crypto.get(), vs_currencies=curr.get())).replace("{","").replace("}","").replace(":","").replace("'",""))
     y=x.replace(" ","        ")
     a.set(y)
+<<<<<<< HEAD
+=======
+    price.place(x=100, y=500)
+>>>>>>> 505afae (Initial commit)
 
 price_check = Button(root, text="Check Price", bg="orchid", bd=8, width=20, height=1, relief=RAISED,
                     fg="Black", font=("Unispace", 15, "bold"), anchor="center", justify=CENTER)
@@ -77,7 +88,11 @@ price3.place(x=530,y=450)
 
 
 price = Label(root, textvariable=a, font=("Exan", 20, "bold"), bg="lightgreen", fg="black", bd=8, anchor='w', relief=RAISED)
+<<<<<<< HEAD
 price.place(x=100,y=500)
+=======
+price.pack_forget()
+>>>>>>> 505afae (Initial commit)
 
 
 mbl = Label(root, text="Made by Leon (*^▽^*)", font=("Book Antiqua", 15, "bold"), bg="black", fg="white", )
