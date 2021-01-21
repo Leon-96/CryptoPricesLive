@@ -86,7 +86,6 @@ price3.place(x=530, y=450)
 
 price = Label(root, textvariable=a, font=("Exan", 20, "bold"), bg="lightgreen", fg="black", bd=8, anchor='w',
               relief=RAISED)
-
 price.pack_forget()
 
 mbl = Label(root, text="Made by Leon (*^▽^*)", font=("Book Antiqua", 15, "bold"), bg="black", fg="white", )
