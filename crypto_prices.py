@@ -9,10 +9,10 @@ root['bg'] = 'wheat'
 root.minsize(800, 800)
 root.resizable(width=False, height=False)
 
-windowicon = PhotoImage(file="C:\\Users\\GoodBoy69\\Downloads\\icon.png")
+windowicon = PhotoImage(file="icon.png")
 root.iconphoto(False, windowicon)
 
-filename1 = PhotoImage(file="C:\\Users\\GoodBoy69\\Pictures\\pattern.gif")
+filename1 = PhotoImage(file="pattern.gif")
 background_label = Label(root, image=filename1)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
