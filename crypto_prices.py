@@ -323,8 +323,3 @@ root.mainloop()
 # =====================================================================================================================
 
 
-# improve csv stuff like creating new file by window and appending mein opening csv file type beat
-
-# first change all this stuff to pyqt5 learn pyqt5
-
-# think about using dash
