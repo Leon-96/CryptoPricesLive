@@ -1,0 +1,11 @@
+---
+application:
+  name: "cryptopriceslive"
+  project: "CryptoPricesLive"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-cryptopriceslive"
+  routes:
+  - application_name: "cryptopriceslive"
+    paths:
+    - "/*"
